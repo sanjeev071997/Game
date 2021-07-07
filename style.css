@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:monospace;
+}
+
+body{
+    background-color: #97aabd;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px auto;
+    background-color: #273828
+}
+table tr td{
+    width: 90px;
+    height: 120px;
+    border: 1px solid #399929;
+    font-size: 35px;
+    text-align: center;
+}
+table tr td:hover{
+    background-color: #2c3531;
+    cursor: pointer;
+}
+.winner{
+    width: 240px;
+    height: 120px;
+    margin: 10px auto;
+    font-size: 60px;
+    text-align: center;
+}
+.winner span {
+    font-size: 40px;
+    display: block;
+}
+button{
+    width: 240px;
+    height: 90px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    font-size: 40px;
+    background-color:  #272727;
+    cursor: pointer;
+}
